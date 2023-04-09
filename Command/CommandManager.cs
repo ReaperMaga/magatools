@@ -57,7 +57,7 @@ public class CommandManager {
             }
         }
 
-        Console.WriteLine("Nothing found!");
+        SendHelp();
     }
 
     private bool Check(Command command, int index, string[] args) {
